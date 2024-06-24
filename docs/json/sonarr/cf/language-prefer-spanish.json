@@ -1,0 +1,20 @@
+{
+  "trash_id": "8e2dd0f60dac2c786164dac079e9aed6",
+  "trash_scores": {
+    "default": 10
+  },
+  "trash_description": "Prefer Language Spanish",
+  "name": "Language: Prefer Spanish",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Spanish Language",
+      "implementation": "LanguageSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 3
+      }
+    }
+  ]
+}
