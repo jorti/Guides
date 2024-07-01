@@ -1,0 +1,25 @@
+{
+  "trash_id": "e44f046cdc4dbc94d613f2b4ee51b148",
+  "name": "Original Language",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Original",
+      "implementation": "LanguageSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": -2
+      }
+    },
+    {
+      "name": "NOT Spanish",
+      "implementation": "LanguageSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": 3
+      }
+    }
+  ]
+}

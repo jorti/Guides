@@ -1,0 +1,28 @@
+{
+  "trash_id": "a494538d98d228b4d46f67b05f6fd12c",
+  "trash_scores": {
+    "default": 5000
+  },
+  "name": "Spanish DL",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "Spanish",
+      "implementation": "LanguageSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 3
+      }
+    },
+    {
+      "name": "Original Language",
+      "implementation": "LanguageSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": -2
+      }
+    }
+  ]
+}
