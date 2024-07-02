@@ -1,27 +1,33 @@
 {
   "trash_id": "a494538d98d228b4d46f67b05f6fd12c",
-  "trash_scores": {
-    "default": 5000
-  },
-  "name": "Spanish DL",
+  "name": "Multi-Spanish",
   "includeCustomFormatWhenRenaming": true,
   "specifications": [
     {
-      "name": "Spanish",
-      "implementation": "LanguageSpecification",
+      "name": "MULTi",
+      "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": true,
       "fields": {
-        "value": 3
+        "value": "\\b(MULTi)(\\b|\\d)"
       }
     },
     {
-      "name": "Original Language",
+      "name": "Original Audio",
       "implementation": "LanguageSpecification",
       "negate": false,
       "required": true,
       "fields": {
         "value": -2
+      }
+    },
+    {
+      "name": "Spanish Audio",
+      "implementation": "LanguageSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": 3
       }
     }
   ]

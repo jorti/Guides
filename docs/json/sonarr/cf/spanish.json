@@ -1,27 +1,18 @@
 {
   "trash_id": "0c53320ffeca50644097ee729504724c",
   "trash_scores": {
-    "default": 4500
+    "default": 10
   },
-  "name": "Spanish",
-  "includeCustomFormatWhenRenaming": true,
+  "name": "Spanish Audio",
+  "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "Spanish",
+      "name": "Spanish Language",
       "implementation": "LanguageSpecification",
       "negate": false,
       "required": true,
       "fields": {
         "value": 3
-      }
-    },
-    {
-      "name": "NOT Original",
-      "implementation": "LanguageSpecification",
-      "negate": true,
-      "required": true,
-      "fields": {
-        "value": -2
       }
     }
   ]
